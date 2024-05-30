@@ -1,89 +1,205 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Juegos mas Vendidos de la Historia</data></title>
-    <link rel="stylesheet" href="style.css">
-    <style></style>
-</head>
-<body>
-<header>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <div class="container">
         <h1 class="h1">Juegos Mas Vendidos De La Historia</h1>
-        <hr>
     </div>
-    <div class="container">
-         <div class="right">
-            <input type="button" value="Mejores Juegos" />
-            <input type="button" value="Juegos Mas Vendidos" />
-            <input type="button" value="Juegos que Recomiendo" />
+  </head>
+  <body>
+            <hr>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Desplegar
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+          </div>
+        </li>
+      <div class="lista">
+        <img src="\Imagenes\Tetris.jpg" />
+        <div>
+          <h1>Tetris</h1>
+          <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 1</h2>
+          <p>
+            El famoso juego Tetris con más de 200 millones de copias vendidas,
+            Tetris se sitúa en el top 1 de esta lista. Este clásico juego de
+            rompecabezas, creado por Alekséi Pázhitnov, ha estado cautivando a
+            jugadores desde su lanzamiento en 1984.
+          </p>
         </div>
-    </div>
-</header>
-<main>
-    <ol>
-        <li><div class="lista">
-        <h1>Tetris</h1>
-        <img src="Imagenes\Tetris.jpg">
-        <p>Top 1 </p>
-        <p>el famoso juego Tetris con más de 200 millones de copias vendidas, Tetris se sitúa en el top 1 de esta lista. Este clásico juego de rompecabezas, creado por Alekséi Pázhitnov, ha estado cautivando a jugadores desde su lanzamiento en 1984.</p>
-        </div></li>
-        <li><div class="lista">
-        <h1>Minecraft</h1>
-        <img src="Imagenes\Minecraft.jpg">
-        <p>Top 2</p> 
-        <p> famoso juego Minecraft con más de 300 millones de copias vendidas, Minecraft se sitúa en el top 2 de esta lista. Este clásico juego de aventura, creado por Markun Persson (Notch), ha estado cautivando a jugadores desde su lanzamiento en 2011.</p>
-        </div></li>
-        <li><div class="lista">
-        <h1>GTA 5</h1>
-        <img src="Imagenes\GTA.jpg">
-        <p>Top 3</p> 
-        <p> famoso juego GTA 5 con más de 190 millones de copias vendidas, GTA 5 se sitúa en el top 3 de esta lista. Este clásico juego de simulacion, creado por Leslie Benzies y Imran Sarwar, ha estado cautivando a jugadores desde su lanzamiento en 2013.</p> 
-        </div></li>
-        <li><div>
-        <h1>Wii Sports</h1>
-        <img src="Imagenes\Wii Sports.jpg">
-        <p>Top 4</p> 
-        <p>el famoso juego Wii Sports con más de 82.9 millones de copias vendidas, Wii Sports se sitúa en el top 4 de esta lista. Este clásico juego de simulacion de juegos deportivos, creado por  Shigeru Miyamoto, Takayuki Shimamura, Yoshikazu Yamashita y Keizo Ohta, ha estado cautivando a jugadores desde su lanzamiento en 2006.</p> 
-        </div></li>
-        <li><div>
-         <h1>PUBG</h1>
-        <img src="Imagenes\PUBG.jpg">
-        <p>Top 5</p> 
-        <p>el famoso juego PUBG con más de 75 millones de copias vendidas, PUBG se sitúa en el top 5 de esta lista. Este clásico juego de batallas de todos contra todos, creado por Brendan Greene, ha estado cautivando a jugadores desde su lanzamiento en 1976.</p>     
-        </div></li>
-        <li><div>
-        <h1>Mario Kart 8/Mario Kart 8 Deluxe</h1>
-        <img src="Imagenes\Mario Kart 8Mario Kart 8 Deluxe.jpg">
-        <p>Top 6</p> 
-        <p>el famoso juego Mario Kart 8/Mario Kart 8 Deluxe con más de 61.97 millones de copias vendidas, Tetris se sitúa en el top 6 de esta lista. Este clásico juego de carreras entre participantes, creado por Nintendo, Nintendo Entertainment Analysis and Development, ha estado cautivando a jugadores desde su lanzamiento en 2017.</p>         
-        </div></li>
-        <li><div>
-        <h1>Overwatch</h1>
-        <img src="Imagenes\Overwatch (1).jpg">
-        <p>Top 7</p> 
-        <p>el famoso juego Overwatch con más de 50 millones de copias vendidas, Tetris se sitúa en el top 7 de esta lista. Este clásico juego de batallas de armas, creado por Blizzard Entertainment y Iron Galaxy Studios, ha estado cautivando a jugadores desde su lanzamiento en 2016.</p> 
-        </div></li>
-        <li><div>
-        <h1>Super Mario Bros</h1>
-        <img src="Imagenes\Super Mario Bros.jpg">    
-        <p>Top 8</p> 
-        <p>el famoso juego Super Mario Bros con más de 421 millones de copias vendidas, Tetris se sitúa en el top 8 de esta lista. Este clásico juego de niveles por pasar, creado por Shigeru Miyamoto, Kōji Kondō, Satoshi Tajir,etc. Ha estado cautivando a jugadores desde su lanzamiento en 1983.</p> 
-        </div></li>
-        <li><div>
-        <h1>Pokémon Generación 1</h1>
-        <img src="Imagenes\Pokémon Generación 1 .jpg">
-        <p>Top 9</p> 
-        <p>el famoso juego Pokémon Generación 1 con más de 47 millones de copias vendidas, Tetris se sitúa en el top 9 de esta lista. Este clásico juego de aventura con Pokémons, creado por Satoshi Tajiri y Game Freak, ha estado cautivando a jugadores desde su lanzamiento en 1996.</p> 
-        </div></li>
-        <li><div>
-        <h1>Red Dead Redemption 2</h1>
-        <img src= "Imagenes\Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.avif" width="10%">
-        <p>Top 10</p> 
-        <p>el famoso juego Red Dead Redemption 2 con más de 61 millones de copias vendidas, Tetris se sitúa en el top 10 de esta lista. Este clásico juego de guerras y persecusiones, creado por Sam Houser, Dan Houser, Jamie King, Terry Donovan y Gary Foreman, ha estado cautivando a jugadores desde su lanzamiento en 2010.</p> 
-        </div></li>
-    </ol>
-    
-</main>
-</body>
+      </div>
+      <hr><hr>
+      <div class="lista">
+        <img src="\Imagenes\Minecraft.jpg" />
+        <div>
+            <h1>Minecraft</h1>
+            <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 2</h2>
+            <p>
+              famoso juego Minecraft con más de 300 millones de copias vendidas,
+              Minecraft se sitúa en el top 2 de esta lista. Este clásico juego
+              de aventura, creado por Markun Persson (Notch), ha estado
+              cautivando a jugadores desde su lanzamiento en 2011.
+            </p>
+        </div>
+        </div>
+        <hr><hr>
+        <div class="lista">
+        <img src="\Imagenes\GTA.jpg" />
+        <div>
+            <h1>GTA 5</h1>
+            <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 3</h2>
+            <p>
+              famoso juego GTA 5 con más de 190 millones de copias vendidas, GTA
+              5 se sitúa en el top 3 de esta lista. Este clásico juego de
+              simulacion, creado por Leslie Benzies y Imran Sarwar, ha estado
+              cautivando a jugadores desde su lanzamiento en 2013.
+            </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\Wii Sports .jpg" />
+            <div>
+                <h1>Wii Sports</h1>
+                <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 4</h2>
+                <p>
+                  el famoso juego Wii Sports con más de 82.9 millones de copias
+                  vendidas, Wii Sports se sitúa en el top 4 de esta lista. Este
+                  clásico juego de simulacion de juegos deportivos, creado por
+                  Shigeru Miyamoto, Takayuki Shimamura, Yoshikazu Yamashita y Keizo
+                  Ohta, ha estado cautivando a jugadores desde su lanzamiento en
+                  2006.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\PUBG.jpg" />
+            <div>
+              <h1>PUBG</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 5</h2>
+                <p>
+                  el famoso juego PUBG con más de 75 millones de copias vendidas,
+                  PUBG se sitúa en el top 5 de esta lista. Este clásico juego de
+                  batallas de todos contra todos, creado por Brendan Greene, ha
+                  estado cautivando a jugadores desde su lanzamiento en 1976.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\Mario Kart 8Mario Kart 8 Deluxe.jpg" />
+            <div>
+              <h1>Mario Kart 8/Mario Kart 8 Deluxe</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 6</h2>
+                <p>
+                  el famoso juego Mario Kart 8/Mario Kart 8 Deluxe con más de 61.97
+                  millones de copias vendidas, Tetris se sitúa en el top 6 de esta
+                  lista. Este clásico juego de carreras entre participantes, creado
+                  por Nintendo, Nintendo Entertainment Analysis and Development, ha
+                  estado cautivando a jugadores desde su lanzamiento en 2017.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\Overwatch (1).jpg" />  
+            <div>       
+              <h1>Overwatch</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 7</h2>
+                <p>
+                  el famoso juego Overwatch con más de 50 millones de copias
+                  vendidas, Tetris se sitúa en el top 7 de esta lista. Este clásico
+                  juego de batallas de armas, creado por Blizzard Entertainment y
+                  Iron Galaxy Studios, ha estado cautivando a jugadores desde su
+                  lanzamiento en 2016.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\Super Mario Bros.jpg" />
+            <div>
+              <h1>Super Mario Bros</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 8</h2>
+                <p>
+                  el famoso juego Super Mario Bros con más de 421 millones de copias
+                  vendidas, Tetris se sitúa en el top 8 de esta lista. Este clásico
+                  juego de niveles por pasar, creado por Shigeru Miyamoto, Kōji
+                  Kondō, Satoshi Tajir,etc. Ha estado cautivando a jugadores desde
+                  su lanzamiento en 1983.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img src="\Imagenes\Pokémon Generación 1 .jpg" />
+            <div>
+              <h1>Pokémon Generación 1</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 9</h2>
+                <p>
+                  el famoso juego Pokémon Generación 1 con más de 47 millones de
+                  copias vendidas, Tetris se sitúa en el top 9 de esta lista. Este
+                  clásico juego de aventura con Pokémons, creado por Satoshi Tajiri
+                  y Game Freak, ha estado cautivando a jugadores desde su
+                  lanzamiento en 1996.
+                </p>
+          </div>
+          </div>
+          <hr><hr>
+          <div class="lista">
+            <img
+              src="\Imagenes\Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.avif"
+              width="10%" />
+            <div>
+              <h1>Red Dead Redemption 2</h1>
+              <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Top 10</h2>
+              <p>
+                el famoso juego Red Dead Redemption 2 con más de 61 millones de
+                copias vendidas, Tetris se sitúa en el top 10 de esta lista. Este
+                clásico juego de guerras y persecusiones, creado por Sam Houser,
+                Dan Houser, Jamie King, Terry Donovan y Gary Foreman, ha estado
+                cautivando a jugadores desde su lanzamiento en 2010.
+              </p>
+          </div>
+          </div>
+      </ol>
+    </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+
 </html>
