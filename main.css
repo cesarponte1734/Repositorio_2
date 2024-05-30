@@ -71,7 +71,9 @@ article>*{
 .container *{
     transition: 1s;
 }
-
+.lista{
+    display: inline-block;
+}
 a{
     display:inline-block;
     color:  #ffffff;
